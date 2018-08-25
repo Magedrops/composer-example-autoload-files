@@ -1,0 +1,16 @@
+{
+    "name": "magedrops/composer-example-autoload-psr-0",
+    "description": "composer auto load psr-0 example",
+    "type": "project",
+    "autoload": {
+        "psr-0": {
+            "MageDrops\\":"src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Herbert de Oliveira",
+            "email": "beto@webjump.com.br"
+        }
+    ]
+}

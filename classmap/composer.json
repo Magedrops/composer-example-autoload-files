@@ -2,11 +2,15 @@
     "name": "magedrops/composer-example-autoload-files",
     "description": "composer auto load files example",
     "type": "project",
+    "autoload": {
+        "classmap": [
+            "app"
+        ]
+    },
     "authors": [
         {
             "name": "Herbert de Oliveira",
             "email": "beto@webjump.com.br"
         }
-    ],
-    "require": {}
+    ]
 }
